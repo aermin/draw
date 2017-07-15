@@ -7,4 +7,3 @@
 
 如果觉得还可以或者帮到您，请给萌新一个`star` ^ ^
 
-![效果预览](http://ooytyiziz.bkt.clouddn.com/draw.gif)
