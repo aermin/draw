@@ -7,7 +7,7 @@
 
 如果觉得还可以或者帮到您，请给萌新一个`star` ^ ^
 
-[点击预览gif效果图](http://ooytyiziz.bkt.clouddn.com/draw.gif)
+[点击预览gif效果图](http://ooytyiziz.bkt.clouddn.com/QQ20170715-193001-HD.gif)
 
 ### 下载运行
 
