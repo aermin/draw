@@ -7,6 +7,8 @@
 
 如果觉得还可以或者帮到您，请给萌新一个`star` ^ ^
 
+![qq](http://ooytyiziz.bkt.clouddn.com/draw.gif)
+
 ### 下载运行
 
 git  clone https://github.com/hxvin/draw.git
