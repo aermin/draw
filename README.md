@@ -10,6 +10,9 @@
 ### 运行使用
 
 git  clone https://github.com/hxvin/draw.git
+
 cd draw
+
 npm install
+
 npm start
