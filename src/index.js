@@ -13,15 +13,14 @@ class Draw extends Component {
             nowHour: 0,
             i: 0, //位置序号
             j: 0,
-            f: 3, //快速转的圈数    可自定义
-            s: 1, //慢速转的圈数    可自定义
+            f: 3, //快速转的圈数  可自定义
+            s: 1, //慢速转的圈数  可自定义
             x: 0,
             aa: false,
             num: 2, //最终的停止位置序号，可根据后台给数据来定义  (怪不得我都抽不到奖=  =)
             step: 1, //当前位置
             fastSpeed: 100, //快速转的速度
             slowSpeed: 500, //慢速转的速度
-            //  open:  true,  //控制抽奖按钮只能点击一次
             slowTurn: false ,//控制慢速转
             currentZoneDate:0
         }
@@ -44,14 +43,15 @@ class Draw extends Component {
             nowHour: nowHour,
             timeStamp:timeStamp
         })
+        // 字幕滚动
         this.refs._end.innerHTML = this.refs._begin.innerHTML;
         //    console.log(this.refs._begin);
         that.moveWord();
     }
-
+   // 字幕滚动实现
     moveWord() {
         var speed = 30;
-        let that = this; //少了这个的话  下面的this会出问题    趁此机会搞清楚this指向
+        let that = this;
         function Marquee() {
             if (that.refs._end.offsetWidth - that.refs._div.scrollLeft <= 0) {
                 that.refs._div.scrollLeft -= that.refs._end.offsetWidth;
