@@ -21,7 +21,7 @@ b：增加了react版的字幕滚动
 
 
 [点击预览gif效果图](http://ooytyiziz.bkt.clouddn.com/QQ20170715-193001-HD.gif)
-
+![抽奖&字幕滚动](http://ooytyiziz.bkt.clouddn.com/draw.png)
 ### 下载运行
 
 git  clone https://github.com/hxvin/draw.git
